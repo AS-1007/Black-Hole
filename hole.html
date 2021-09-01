@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+        <body>
+            <canvas id="canvas"></canvas>
+            <div>
+                <p>gravity</p>
+                <input type="range" min="0" max="8" value="4"
+                step="0.01" class="sliderA" id="centerGrav">
+                <p>air resistance</p>
+                <input type="range" min="0" max="1" value="0.01"
+                step="0.01" class="sliderA" id="air">
+                <p>substeps</p>
+                <input type="range" min="1" max="16" value="1"
+                step="1" class="sliderA" id="sub">
+            </div>
+            <script
+                main();
+                type="text/javascript" src="script.js"></script>
+        </body>
+</html>
